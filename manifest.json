@@ -12,5 +12,8 @@
       "run_at": "document_end",
       "js": ["index.js"]
     }
+  ],
+  "permissions": [
+    "activeTab"
   ]
 }

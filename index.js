@@ -3,7 +3,7 @@
 // https://stackoverflow.com/questions/9515704/insert-code-into-the-page-context-using-a-content-script
 (function() {
     var s = document.createElement('script');
-    s.src = chrome.extension.getURL('beep.js');
+    s.src = chrome.runtime.getURL('beep.js');
     s.onload = function () {
         this.remove();
     };
